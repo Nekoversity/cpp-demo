@@ -5,7 +5,7 @@ namespace calculator {
     public:
         SimpleCalculator(const double&, const double&);
         double compute(const double&) const;
-        double step_compute(const double&, const int&, const double&);
+        void step_compute(const double&, const double&, double*) const;
         virtual ~SimpleCalculator() {}
     };
 }
