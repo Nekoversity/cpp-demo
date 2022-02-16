@@ -1,4 +1,4 @@
-# practice-3
+# cpp-demo 
 In the practical work I created a calculator class that performs calculations according to a specific formula. 
 Class `SimpleCalculator` has two methods:
 - `compute()` - determines the result of the function according to the value `x` given in the parameters.
