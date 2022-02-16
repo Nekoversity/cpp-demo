@@ -1,12 +1,11 @@
-#include <iostream>
-#include "SimpleCalculator.cpp"
+#include "SimpleCalc.hpp"
 
 using std::cout;
 using std::cin;
 using std::endl;
 
 int main() {
-    calculator::SimpleCalculator calc(-0.71, 1.17);
+    simple::SimpleCalculator calc(-0.71, 1.17);
     cout << "compute() RESULT: " << calc.compute(5.42) << endl;
 
     cout << endl << "===================" << endl << endl;

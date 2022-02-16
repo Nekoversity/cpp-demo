@@ -1,4 +1,8 @@
-namespace calculator {
+#ifndef __SIMPLE_CALC__
+
+#define __SIMPLE_CALC__
+
+namespace simple {
     class SimpleCalculator {
     private:
         double a, b;
@@ -9,3 +13,4 @@ namespace calculator {
         virtual ~SimpleCalculator() {}
     };
 }
+#endif  // __SIMPLE_CALC__

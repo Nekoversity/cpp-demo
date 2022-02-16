@@ -5,7 +5,7 @@ using std::pow;
 using std::cos;
 using std::exp;
 
-namespace calculator {
+namespace simple {
     SimpleCalculator::SimpleCalculator(const double& a_, const double& b_)
         : a(a_)
         , b(b_)
