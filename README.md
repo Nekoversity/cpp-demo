@@ -1,5 +1,3 @@
-# cpp-demo 
-In the practical work I created a calculator class that performs calculations according to a specific formula. 
-Class `SimpleCalculator` has two methods:
-- `compute()` - determines the result of the function according to the value `x` given in the parameters.
-- `step_compute()` - determines the result for the interval from `x1` to `x2`.
+# cpp-demo (cmake-subprojects)
+In the practical work I transformed `SimpleCalculator` class to library. Added new library (matrix) and organized 
+subprojects.
