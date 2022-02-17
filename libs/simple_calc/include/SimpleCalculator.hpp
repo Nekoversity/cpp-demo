@@ -1,6 +1,6 @@
-#ifndef __SIMPLE_CALC__
+#ifndef __SIMPLE_CALC_LIB__
 
-#define __SIMPLE_CALC__
+#define __SIMPLE_CALC_LIB__
 
 namespace simple {
     class SimpleCalculator {
@@ -13,4 +13,4 @@ namespace simple {
         virtual ~SimpleCalculator() {}
     };
 }
-#endif  // __SIMPLE_CALC__
+#endif  // __SIMPLE_CALC_LIB__
