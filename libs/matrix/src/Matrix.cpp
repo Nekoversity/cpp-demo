@@ -19,4 +19,8 @@ namespace matrix {
         return m_data.at(row).at(col);
     }
 
+    void Matrix::set(const unsigned int& row, const unsigned int& col, const double& value) {
+        m_data.at(row)[col] = value;
+    }
+
 }

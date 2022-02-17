@@ -18,6 +18,7 @@ namespace matrix {
 
         const double& get(const unsigned&, const unsigned&) const;
         double& get(const unsigned&, const unsigned&);
+        void set(const unsigned&, const unsigned&, const double&);
     };
 }
 
