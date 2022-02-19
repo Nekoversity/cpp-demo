@@ -16,7 +16,6 @@ namespace matrix {
     public:
         Matrix(const unsigned& rows = 3, const unsigned& cols = 3);
 
-        const double& get(const unsigned&, const unsigned&) const;
         double& get(const unsigned&, const unsigned&);
         void set(const unsigned&, const unsigned&, const double&);
     };

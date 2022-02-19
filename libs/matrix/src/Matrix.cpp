@@ -11,10 +11,6 @@ namespace matrix {
         }
     }
 
-    const double &Matrix::get(const unsigned int& row, const unsigned int& col) const {
-        return m_data.at(row).at(col);
-    }
-
     double &Matrix::get(const unsigned int& row, const unsigned int& col) {
         return m_data.at(row).at(col);
     }
