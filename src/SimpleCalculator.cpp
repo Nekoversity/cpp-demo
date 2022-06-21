@@ -23,4 +23,13 @@ namespace calculator {
             result[i] = compute(x1 + (step_weight * i));
         }
     }
+
+    void SimpleCalculator::tabulate(const double& x1, const double& x2) const {
+        double step_weight = (x2 - x1) / 10;
+        int steps = 10;
+        for (int i = 0; i < steps; i++) {
+            std::cout << "x1 = " << x1 << ", " << "x2 = " << (step_weight * i) << "  >>  " << compute(x1 + (step_weight * i)) << std::endl;
+        }
+    }
+
 }

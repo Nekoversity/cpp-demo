@@ -16,4 +16,7 @@ int main() {
     for (double result : results) {
         cout << "step_compute() RESULT: " << result << endl;
     }
+
+    cout << endl << "===================" << endl << endl;
+    calc.tabulate(5.1, 6);
 }
